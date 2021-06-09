@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">CountOnOffBluetooth</string>
+    <string name="on_count">On Count:</string>
+    <string name="off_count">off count:</string>
+</resources>
