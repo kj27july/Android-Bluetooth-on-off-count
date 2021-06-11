@@ -11,6 +11,5 @@ class CountDBHelper2(context:Context):SQLiteOpenHelper(context,"CountOnOffDB",nu
     }
 
     override fun onUpgrade(db: SQLiteDatabase?, oldVersion: Int, newVersion: Int) {
-//        TODO("Not yet implemented")
     }
 }
