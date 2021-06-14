@@ -1,9 +1,10 @@
-package com.example.countonoffbluetooth
+package com.example.countonoffbluetooth.receiver
 
 import android.bluetooth.BluetoothAdapter
 import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
+import com.example.countonoffbluetooth.interfaces.iCallBack
 
 class BluetoothReceiver(private val iCallBack: iCallBack) : BroadcastReceiver() {
     override fun onReceive(context: Context?, intent: Intent?) {

@@ -1,4 +1,4 @@
-package com.example.countonoffbluetooth
+package com.example.countonoffbluetooth.interfaces
 
 interface iMainView {
     fun updateOnCount(count : Int)
